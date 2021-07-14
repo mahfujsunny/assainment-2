@@ -335,7 +335,7 @@ body {
  Tablet Devices 
  ********************/
 
-@media only screen and (max-width:992px) {
+@media only screen and (max-width:1000px) {
     .menu {
         display: none;
     }

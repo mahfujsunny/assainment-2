@@ -275,3 +275,84 @@ body {
     justify-content: center;
     margin-bottom: 63px;
 }
+
+/****************
+ Media Queries 
+ ****************/
+
+/******************
+  Mobile devices 
+*******************/
+
+@media only screen and (max-width:688px) {
+
+    .menu {
+        display: none;
+    }
+
+    .first-banner {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner h2 {
+        position: relative;
+        left: -160px;
+    }
+
+    .banner img {
+        position: relative;
+        left: -166px;
+        width: 98%;
+    }
+
+    .field {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .final-match img {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sponsers img {
+        display: flex;
+        margin-left: 25px;
+    }
+
+    .football-img img {
+        display: flex;
+        align-items: center;
+        width: 90%;
+    }
+}
+
+
+/******************
+ Tablet Devices 
+ ********************/
+
+@media only screen and (max-width:992px) {
+    .menu {
+        display: none;
+    }
+
+    .first-banner {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .field{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .sponsers img{
+        display: flex;
+        margin-left: 430px;
+    }
+}
